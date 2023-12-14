@@ -1,33 +1,17 @@
-.Encabezado{
-    text-align: center;
-    color: rgb(235, 224, 224);
-    height:200px;
-    background-image: url(Imagenes/como-hacer-una-pagina-web-en-html.webp);
+.imagenFondo{
+
+    background-image: url(Imagenes/fotofondopantallas.png);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
+
 }
 
-.barraNav{
-    background-color:#2e2e2e;
+
+.aVer{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    
-}
-
-.Botones-nav{
-    background-color: rgb(182, 205, 226);
-    width: 250px;
-    height:50px;
-    margin-top: 10px;
-    margin-left: 70px;
-}
-
-.Botones-nav:hover{
-    background-color: #2e2e2e;
-}
-.nombreCompleto{
-    padding-top: 100px;
-    font-size: 64px;
-}
-
-.textoPerfil{
-    font-size: 28px;
 }
