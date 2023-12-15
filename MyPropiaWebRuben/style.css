@@ -15,3 +15,38 @@
     justify-content: center;
     align-items: center;
 }
+
+.nombreInformacion{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+.nombrePrimero{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.letrasImagenes{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.divImagenes {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px; /* Ajusta el margen según sea necesario */
+}
+
+.segundoContenedor{
+    background-color: rgb(34, 34, 68);
+    height: 200px;
+    color: white;
+}
