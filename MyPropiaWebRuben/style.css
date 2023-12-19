@@ -46,7 +46,26 @@
 }
 
 .segundoContenedor{
-    background-color: rgb(34, 34, 68);
+    background-color: #21293d;
     height: 200px;
     color: white;
+    
+}
+
+.letrasIdiomas{
+    color: #eb6867;
+    font-size: 2em;
+    padding-left: 30px;
+}
+
+
+/*//////////////////////////////////////////MEDIAS QUERYS*/
+
+
+@media screen and (min-width: 480px){
+
+.nombreInformacion{
+    background-color: blue;
+}
+
 }
